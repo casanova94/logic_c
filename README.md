@@ -31,3 +31,25 @@ L
 D
 
 R
+
+## Solución
+
+Existen posibles combinaciones:
+1. Cuando n es menor que m
+2. Cuando n es mayor que m
+3. Cuando n es igual a m
+
+El caso más sencillo es cuando m es igual a n
+
+* Para n,m = 1
+R (iniciamos a la derecha)
+* Para n,m = 2
+L
+* Para n,m = 3
+R
+* Para n,m = 4
+L
+* Para n,m = 2x donde x = 1,2,3....
+L (n y m son pares)
+* Para n,m = 2x + 1 donde x = 1,2,3...
+R (n y m son impares)
