@@ -32,9 +32,9 @@ D
 
 R
 
-## Solución
+## Justificación
 
-Existen posibles combinaciones:
+Existen 3 posibles combinaciones:
 1. Cuando n es menor que m
 2. Cuando n es mayor que m
 3. Cuando n es igual a m
@@ -64,3 +64,11 @@ L (n,m son pares y n=m)
 > Para n,m = 2x + 1 donde x = 1,2,3...
 
 R (n,m son impares y n=m)
+
+
+En base a numerosas combinaciones de n > m y m < n (decido no escribir ejemplos pues serían a lo minimo 20 de cada uno) se puede observar cierto patrón en las secuencias, por lo que pude determinar que:
+
+1. Cuando n es par y n < m entonces el movimiento es hacia la izquierda (L)
+2. Cuando n es impar y n < m entonces el movimiento es hacia la derecha (R)
+3. Cuando m es impar y n > m entones el movimiento es hacia abajo (D)
+4. Cuando m es par y n > m entonces el movimiento es hacia arriba (U)
