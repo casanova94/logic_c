@@ -23,7 +23,7 @@ void calcPos(){
 			cout << "Ingrese un valor para m: ";
 			cin >> m;
 			
-			//cuando n < m o cuando n == m
+			//cuando n < m o cuando n == m, se combinan estos dos casos porque tienen el mismo comportamiento
 			if(n < m || n == m){
 				if(n % 2 == 0)cout << 'L';
 				else cout << 'R';

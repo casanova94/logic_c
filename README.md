@@ -66,7 +66,7 @@ L (n,m son pares y n=m)
 R (n,m son impares y n=m)
 
 
-En base a numerosas combinaciones de n > m y m < n (decido no escribir ejemplos pues serían a lo minimo 20 de cada uno) se puede observar cierto patrón en las secuencias, por lo que pude determinar que:
+En base a numerosas combinaciones de n > m y m < n (decido no escribir ejemplos pues serían a lo minimo 30 de cada uno) se puede observar cierto patrón en las secuencias, por lo que pude determinar que:
 
 1. Cuando n es par y n < m entonces el movimiento es hacia la izquierda (L)
 2. Cuando n es impar y n < m entonces el movimiento es hacia la derecha (R)
